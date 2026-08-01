@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Playwrite+US+Trad+Guides&family=Cedarville+Cursive&family=Great+Vibes&family=Allura&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Lato", "Inter", "Noto Sans KR", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-cursive: "Playwrite US Trad", cursive;
+  --font-cursive-guides: "Playwrite US Trad Guides", cursive;
+  --font-cursive-cedarville: "Cedarville Cursive", cursive;
+  --font-cursive-greatvibes: "Great Vibes", cursive;
+  --font-cursive-allura: "Allura", cursive;
+  
+  --color-brand-bg: #FAF7F0;
+  --color-panel-bg: #FFFFFF;
+  --color-text-main: #1A303A;
+  --color-text-muted: #70808A;
+  --color-accent-gold: #BCA374;
+  --color-accent-gold-hover: #A18A5F;
+  --color-border-color: #E4DFD3;
+}
+
+/* Custom cursive layout styles */
+.cursive-normal {
+  font-family: "Playwrite US Trad", cursive;
+  line-height: 1.8;
+}
+
+.cursive-guided {
+  font-family: "Playwrite US Trad Guides", cursive;
+  line-height: 1.8;
+}
+
+.cursive-cedarville {
+  font-family: "Cedarville Cursive", cursive;
+  line-height: 1.8;
+  letter-spacing: 0em !important;
+}
+
+.cursive-greatvibes {
+  font-family: "Great Vibes", cursive;
+  line-height: 1.8;
+  letter-spacing: 0em !important;
+}
+
+.cursive-allura {
+  font-family: "Allura", cursive;
+  line-height: 1.8;
+  letter-spacing: 0em !important;
+}
+
+/* Scrollbar customizations */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-color);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-gold);
+}

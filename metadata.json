@@ -1,0 +1,6 @@
+{
+  "name": "Mindful English",
+  "description": "영어 쉐도잉과 라이팅 필사를 위한 모바일 친화형 학습 비서 앱",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
